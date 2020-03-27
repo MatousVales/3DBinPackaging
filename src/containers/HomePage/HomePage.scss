@@ -1,0 +1,18 @@
+.HomePage {
+  &__error {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+    &--critical {
+      background-color: rgba(#FF0000, .5);
+      border-color: #FF0000;
+    }
+
+    &--warning {
+      background-color: rgba(#FFCE00, .5);
+      border-color: #FFCE00;
+    }
+  }
+}

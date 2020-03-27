@@ -1,0 +1,19 @@
+.Package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 30px 0;
+  padding: 10px;
+
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__button {
+    height: 40.5px;
+    margin-left: 10px;
+  }
+}
